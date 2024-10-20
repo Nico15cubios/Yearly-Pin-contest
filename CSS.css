@@ -1,0 +1,132 @@
+body {
+    background-image: url('Imagen/Background.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la pantalla */
+    height: 200vh; /* Asegura que el fondo cubra toda la altura del viewport */
+    margin: 100; /* Elimina cualquier margen alrededor del body */
+}
+
+h1{
+    text-align: center;
+    color:lightcyan;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 56px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: lightcyan;
+    text-align:  center;
+    margin-top: 0px;
+}
+
+.contenedor {
+    display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.imagen1 {
+    text-align: left;
+    color: lightcyan;
+    margin: 50px;
+    margin-top: auto;
+    margin-bottom: 25px;
+    margin-right: 10px; /* Espacio entre el texto y la imagen */
+}
+
+.Pin1 {
+    margin: 50px;
+    margin-top: 0px;
+    width: 250px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el comentario */
+}
+
+.comentario {
+    margin: 0; /* Elimina margen superior e inferior */
+    text-align: justify;
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin-left: 100px;
+    color: lightcyan;
+}
+
+/*Codigo para la imagen #2*/
+
+.contenedor2 {
+    display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.imagen2 {
+    text-align: left;
+    color: lightcyan;
+    margin: 50px;
+    margin-top: auto;
+    margin-bottom: 25px;
+    margin-right: 10px; /* Espacio entre el texto y la imagen */
+}
+
+.Pin2 {
+    margin: 50px;
+    margin-top: 0px;
+    width: 250px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el comentario */
+}
+
+.comentario2 {
+    margin: 0; /* Elimina margen superior e inferior */
+    text-align: justify;
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin-left: 100px;
+    color: lightcyan;
+}
+
+/*Codigo para la imagen #3*/
+
+.contenedor3 {
+    display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.imagen3 {
+    text-align: left;
+    color: lightcyan;
+    margin: 50px;
+    margin-top: auto;
+    margin-bottom: 25px;
+    margin-right: 10px; /* Espacio entre el texto y la imagen */
+}
+
+.Pin3 {
+    margin: 50px;
+    margin-top: 0px;
+    width: 250px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el comentario */
+}
+
+.comentario3 {
+    margin: 0; /* Elimina margen superior e inferior */
+    text-align: justify;
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin-left: 100px;
+    color: lightcyan;
+}
+
+/* Especificaciones para los footers*/
+
+.Agradecimiento{
+    color: lightcyan;
+}
+
+.firma{
+    color: lightcyan;
+    margin: 50px;
+    text-align: left;
+    margin-top: 5px;
+}
