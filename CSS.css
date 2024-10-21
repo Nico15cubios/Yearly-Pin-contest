@@ -140,9 +140,9 @@ p {
     .comentario3 {
         margin-left: 0; /* Elimina el margen negativo en pantallas pequeñas */
         max-width: 100%; /* Asegura que el texto se ajuste al ancho de la pantalla */
+
     }
 }
-
 /* Especificaciones para los footers*/
 
 .Agradecimiento{
@@ -158,3 +158,20 @@ p {
     font-family:'Times New Roman', Times, serif;
 }
 
+/* Media queries para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px; /* Cambia el tamaño del encabezado en móviles */
+    }
+
+    .contenedor, .contenedor2, .contenedor3 {
+        flex-direction: column; /* Cambia a columna en móviles */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .comentario, .comentario2, .comentario3 {
+        margin-left: 0; /* Elimina margen izquierdo en móviles */
+        margin-right: 0; /* Elimina margen derecho en móviles */
+        max-width: 90%; /* Ajusta el ancho del comentario */
+    }
+}
