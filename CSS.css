@@ -55,6 +55,7 @@ p {
     margin-bottom: 60px;
     max-width: 800px;
     margin-left: 100px;
+    margin-right: 20px;
     color: white;
     font-family:'Times New Roman', Times, serif;
 }
@@ -92,6 +93,7 @@ p {
     margin-bottom: 60px;
     max-width: 800px;
     margin-left: 100px;
+    margin-right: 20px;
     color: white;
     font-family:'Times New Roman', Times, serif;
 }
@@ -130,6 +132,7 @@ p {
     margin-bottom: 60px;
     max-width: 800px;
     margin-left: -200px;
+    margin-right: 20px;
     color: white;
     font-family:'Times New Roman', Times, serif;
 }
