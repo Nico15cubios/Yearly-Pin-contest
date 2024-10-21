@@ -1,3 +1,17 @@
+@media (max-width: 600px){   /*Configuraciones para pantallas pequeñas*/
+    body{
+        font-size: 14px;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
+
+img{
+    max-width: 100;
+    height: auto;
+}
+
 body {
     background-image: url('Imagen/Background2.jpg'); /* Ruta de tu imagen */
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
